@@ -11,13 +11,16 @@ body {
   header {
     background-color: #696969;
     padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   header h1 {
     font-size: 36px;
     color: #AFEEEE;
     margin: 0px;
-    display: inline;
+
   }
 
   header a {
