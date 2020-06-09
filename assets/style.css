@@ -71,19 +71,17 @@ header nav ul li a {
 
 /* hero styling end */
 
-/* information section starts */
+/* resume information starts */
 
-.information {
+.about-section {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.section-title {
+.section-title h2 {
     font-size: 45px;
-    display: inline;
-    width: 25vw;
+    padding: 20px;
 }
 
 /* about section */
@@ -92,16 +90,24 @@ header nav ul li a {
     line-height: 1.5;
     border-left: 3px solid;
     padding: 40px;
-    display: flex;
 }
 /* work section */
 
 /* grid */
 
+.work-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .work-grid-container {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(3, 1fr);
+    border-left: 3px solid;
+    padding: 40px;
+
 }
 
 .work-grid-items {
@@ -110,8 +116,6 @@ header nav ul li a {
     background-color: orange;
     border: solid;
     color: black;
-    display: flex;
-    align-items: center;
   }
 
   .box1 {
@@ -121,6 +125,12 @@ header nav ul li a {
 
 
 /* contact section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 .contact-section ul {
     border-left: 3px solid;
