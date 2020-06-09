@@ -73,20 +73,27 @@ header nav ul li a {
 
 /* resume information starts */
 
-.about-section {
+.information-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
-.section-title h2 {
+.section-title {
     font-size: 45px;
     padding: 20px;
 }
 
+
 /* about section */
 
-.about-content {
+/*.about-section {
+    display: flex;
+    align-items: flex-start;
+}*/
+
+.about-section p {
     line-height: 1.5;
     border-left: 3px solid;
     padding: 40px;
@@ -95,11 +102,10 @@ header nav ul li a {
 
 /* grid */
 
-.work-section {
+/*.work-section {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-}
+}*/
 
 .work-grid-container {
     display: grid;
@@ -126,11 +132,10 @@ header nav ul li a {
 
 /* contact section */
 
-.contact-section {
+/*.contact-section {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-}
+}*/
 
 .contact-section ul {
     border-left: 3px solid;
@@ -139,7 +144,7 @@ header nav ul li a {
 
 .contact-section li {
     display: inline;
-    padding: 80px;
+    padding: 40px;
 }
 
 .items {
@@ -148,23 +153,12 @@ header nav ul li a {
     color: #696969;
     border-bottom: 3px solid;
     border-color: #696969;
-    padding: 10px;
+    padding: 1px;
+
 }
 
 
 /* information section ends */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
