@@ -136,6 +136,10 @@ header nav ul li a {
 
 /* contact section starts */
 
+.contact-section {
+    display: flex;
+}
+
 .contact-section ul {
     border-left: 3px solid;
     padding: 40px;
