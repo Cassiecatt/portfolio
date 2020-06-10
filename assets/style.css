@@ -80,13 +80,13 @@ header nav ul li a {
     justify-content: space-between;
 }
 
-#work, #about-me #contact-me {
+#work, #about-me, #contact-me {
     width:100%;
 }
 
 .section-title {
     font-size: 45px;
-    padding: 20px;
+    padding: 20px 80px;
     width: 20%;
 }
 
@@ -138,6 +138,10 @@ header nav ul li a {
 
 .contact-section {
     display: flex;
+}
+
+.item-list {
+    width: 80%;
 }
 
 .contact-section ul {
