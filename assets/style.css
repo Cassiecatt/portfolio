@@ -80,9 +80,14 @@ header nav ul li a {
     justify-content: space-between;
 }
 
+#work, #about-me #contact-me {
+    width:100%;
+}
+
 .section-title {
     font-size: 45px;
     padding: 20px;
+    width: 20%;
 }
 
 /* about section start */
@@ -95,6 +100,7 @@ header nav ul li a {
     line-height: 1.5;
     border-left: 3px solid;
     padding: 40px;
+    width: 80%;
 }
 
 /* work section starts */
@@ -111,6 +117,7 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     border-left: 3px solid;
     padding: 40px;
+    width: 80%;
 }
 
 .work-grid-items {
@@ -147,6 +154,7 @@ header nav ul li a {
     border-color: #696969;
     padding: 1px;
 }
+
 
 
 /* resume information ends */
