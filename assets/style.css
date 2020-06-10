@@ -81,7 +81,7 @@ header nav ul li a {
 }
 
 #work, #about-me, #contact-me {
-    width:100%;
+    width: 100%;
 }
 
 .section-title {
@@ -142,11 +142,8 @@ header nav ul li a {
 
 .item-list {
     width: 80%;
-}
-
-.contact-section ul {
-    border-left: 3px solid;
     padding: 40px;
+    border-left: 3px solid;
 }
 
 .contact-section li {
@@ -172,5 +169,5 @@ header nav ul li a {
 
 
 section {
-    padding: 80px;
+    padding: 20px 80px;
 }
