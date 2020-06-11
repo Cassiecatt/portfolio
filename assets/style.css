@@ -33,7 +33,6 @@ header a {
 
 header nav {
     float: right;
-    margin: 15px, 0;
 }
 
 header nav ul li {
@@ -44,6 +43,9 @@ header nav ul li a {
     margin: 0 10px;
     font-weight: lighter;
     font-size: 20px;
+    border-bottom: 3px solid;
+    border-color: #AFEEEE;
+    padding: 1px;
 }
 
 /* header styling end */
@@ -80,7 +82,7 @@ header nav ul li a {
     justify-content: space-between;
 }
 
-#work, #about-me, #contact-me {
+.flex-row {
     width: 100%;
 }
 
@@ -88,6 +90,7 @@ header nav ul li a {
     font-size: 45px;
     padding: 20px 80px;
     width: 20%;
+    text-align: right;
 }
 
 /* about section start */
@@ -123,14 +126,22 @@ header nav ul li a {
 .work-grid-items {
     min-width: 300px;
     min-height: 100px;
-    background-color: orange;
-    border: solid;
-    color: black;
+    border: 5px solid;
+    border-color: #AFEEEE;
   }
 
   .box1 {
       grid-column: 1/3;
       grid-row: 1/3;
+  }
+
+  .work-grid-items h3 {
+    color: #696969;
+    font-size: 24px;
+    text-align: center; 
+    background-color: #AFEEEE;
+    display: inline-flex;
+    padding: 10px;
   }
 
 
@@ -160,14 +171,21 @@ header nav ul li a {
     padding: 1px;
 }
 
-
-
 /* resume information ends */
-
-
-
-
 
 section {
     padding: 20px 80px;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {}
+   
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {}
