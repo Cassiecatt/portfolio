@@ -246,7 +246,9 @@ section {
     padding: 20px 0 20px 0;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR Larger DESKTOP SCREENS AND SMALLER */
+/*added this size due to the issues I was seeing on my browser at that size*/
+
 @media screen and (max-width: 1330px) {
     .work-grid-items {
         min-width: 0;
@@ -341,7 +343,6 @@ section {
         font-size: 30px;
     }
 } 
-   
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
