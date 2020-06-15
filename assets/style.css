@@ -1,21 +1,22 @@
-/* applied to all */
+/* applied to entire doc */
 * {
     margin: 0;
     padding: 0;
     overflow-x: hidden; 
-  }
+}
 
-  :root {
-      --primary-color: rgb(160, 158, 158);
-      --secondary-color: #130106c4;
-      --tertiary-color: #f5f5f5;
-  }
+/* Defined color variables */
+:root {
+    --primary-color: rgb(160, 158, 158);
+    --secondary-color: #130106c4;
+    --tertiary-color: #f5f5f5;
+}
 
 /* styling to all body elements */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--secondary-color);
-  }
+}
 
 /* header styling */
 
@@ -34,6 +35,8 @@ header h1 {
     padding: 10px;
     background-color: var(--secondary-color);
 }
+
+/* remove decoration of clickable element */
 
 header a {
     text-decoration: none;
@@ -61,7 +64,7 @@ header nav ul li a {
     padding: 1px;
 }
 
-/* add background to nav elements once hovered */
+/* add background color to nav elements once hovered */
 
 header nav ul li a:hover {
     background: var(--secondary-color);
@@ -70,17 +73,17 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* hero styling start */
+/* hero styling */
 
 .hero {
-      background-image: url("./images/paint.jpeg");
-      background-size: cover;
-      background-position: 100%;
-      height: 200px;
-      position: relative;
+    background-image: url("./images/paint.jpeg");
+    background-size: cover;
+    background-position: 100%;
+    height: 200px;
+    position: relative;
 }
 
-/* place header bottom right of hero */
+/* place hero header bottom right of hero */
 
 .hero-headline {
     background-color: var(--tertiary-color);
@@ -108,6 +111,8 @@ header nav ul li a:hover {
 .flex-row {
     width: 100%;
 }
+
+/* applies to all section titles*/
 
 .section-title {
     font-size: 45px;
@@ -154,7 +159,7 @@ header nav ul li a:hover {
     position: relative;
   }
 
-  /* add gradient to grid items when hovered */
+/* add gradient to grid items when hovered */
 
   .work-grid-items::after {
     content: ""; 
@@ -167,10 +172,9 @@ header nav ul li a:hover {
     opacity: .0;  
 }
 
-
   .work-grid-items:hover::after {
       opacity: .5;
-  }
+}
 
   .box-headers {
     position: absolute;
@@ -180,34 +184,36 @@ header nav ul li a:hover {
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     text-align: left;
-  }
+}
 
   .box-headers p {
-      position: absolute;
-      z-index: 2;
-      font-size: 12px;
-  }
+    position: absolute;
+    z-index: 2;
+    font-size: 12px;
+}
 
-  /* individual box styling/images */
+/* individual box styling/images */
+
+/* make box one bigger than the rest */
 
   .box1 {
-      grid-column: 1/3;
-      grid-row: 1/3; 
-      background-image: url(./images/run-buddy.png);
-      background-size: cover;
-      background-position: left;   
-  }
+    grid-column: 1/3;
+    grid-row: 1/3; 
+    background-image: url(./images/run-buddy.png);
+    background-size: cover;
+    background-position: left;   
+}
 
   .box-headers a {
-      text-decoration: none;
-      color: var(--tertiary-color);
-  }
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
 
   .box2 {
     background-image: url(./images/robot.jpg);
     background-size: cover;
     background-position: left;
-  }
+}
 
 
 /* contact section starts */
@@ -259,13 +265,16 @@ section {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+
+/* header styling */
+
     header {
         display: block;
         text-align: center;
     }
 
     header h1 {
-    width: 100%;
+        width: 100%;
     }
 
     header nav ul {
@@ -274,15 +283,12 @@ section {
         justify-content: center;
     }
 
+/* information container styling */
 
     .information-container {
         flex-direction: column;
         padding: 20px 40px;
     }
-
-   /* .flex-row {
-        padding: 20px 40px;
-    }*/
 
     .about-section, .work-section, .contact-section {
         display: block;
@@ -323,6 +329,7 @@ section {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
 @media screen and (max-width: 768px) {
+
     .section-title {
         text-align: left;
         font-size: 40px;
@@ -365,9 +372,13 @@ section {
         padding: 10px;
     }
 
+    .about-section p {
+        font-size: 16px;
+    }
+
     .work-grid-items {
         min-width: 100%;
-      }
+    }
 
     .box-headers {
        height: auto;
@@ -377,10 +388,6 @@ section {
         text-decoration: none;
         font-size: 17px;
         color: var(--secondary-color);
-    }
-
-    .about-section p {
-        font-size: 16px;
     }
 }
 
