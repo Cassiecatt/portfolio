@@ -335,6 +335,10 @@ section {
         font-size: 40px;
     }
 
+    header {
+        padding: 0;
+    }
+
     header h1 {
         font-size: 30px;
         color: var(--tertiary-color);
@@ -357,7 +361,9 @@ section {
 @media screen and (max-width: 575px) {
 
     header nav ul li a {
-        font-size: 20px;
+        margin-top: 0;
+        font-size: 18px;
+        flex-wrap: none;
     }
 
     .hero-headline {
