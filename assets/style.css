@@ -28,6 +28,11 @@ header {
     align-items: center;
 }
 
+footer {
+    background-color: var(--primary-color);
+    padding: 30px;
+}
+
 header h1 {
     font-size: 36px;
     color: var(--tertiary-color);
@@ -60,7 +65,7 @@ header nav ul {
 header nav ul li a {
     margin: 0 10px;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     padding: 1px;
 }
 
@@ -69,17 +74,18 @@ header nav ul li a {
 header nav ul li a:hover {
     background: var(--secondary-color);
     color: var(--tertiary-color);
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 30px;
     text-shadow: none;
 }
 
 /* hero styling */
 
 .hero {
-    background-image: url("./images/paint.jpeg");
+    background-color: var(--secondary-color);
     background-size: cover;
     background-position: 100%;
-    height: 200px;
+    height: 100px;
     position: relative;
 }
 
@@ -105,7 +111,7 @@ header nav ul li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
 }
 
 .flex-row {
@@ -179,7 +185,7 @@ header nav ul li a:hover {
   .box-headers {
     position: absolute;
     z-index: 1;
-    width: 50%;
+    width: 70%;
     height: 40px;
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
@@ -215,6 +221,12 @@ header nav ul li a:hover {
     background-position: left;
 }
 
+  .box3 {
+    background-image: url(./images/password-gen.png);
+    background-size: cover;
+    background-position: left;
+}
+
 
 /* contact section starts */
 
@@ -244,7 +256,8 @@ header nav ul li a:hover {
 .items:hover {
     background: var(--secondary-color);
     color: whitesmoke;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 30px;
     text-shadow: none;
 }
 
