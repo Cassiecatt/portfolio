@@ -379,12 +379,15 @@ section {
         flex-wrap: none;
     }
 
-    .hero-headline {
-        width: 200px;
-        padding: 10px;
-        bottom: 10px;
-        right: 30px;
+    .hero {
+        height: 50px;
     }
+
+    /* .hero-headline {
+        padding: 10px;
+        /* bottom: 10px; */
+        /* right: 25px; */
+   /* } */
 
     .information-container {
         flex-direction: column;
@@ -409,4 +412,6 @@ section {
         color: var(--secondary-color);
     }
 }
+
+
 
