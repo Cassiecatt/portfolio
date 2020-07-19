@@ -227,6 +227,12 @@ header nav ul li a:hover {
     background-position: left;
 }
 
+.box4 {
+    background-image: url(./images/group-proj.png);
+    background-size: cover;
+    background-position: left;
+}
+
 
 /* contact section starts */
 
