@@ -154,7 +154,7 @@ header nav ul li a:hover {
     position: relative;
   }
 
-  /* add gradient to grid items when hovered */
+  add gradient to grid items when hovered */
 
   .work-grid-items::after {
     content: ""; 
@@ -233,7 +233,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
 }
 
-/* add background to elements when hovered */
+/* add background to elements when hovered*/
 
 .items:hover {
     background: var(--secondary-color);
@@ -246,6 +246,7 @@ header nav ul li a:hover {
 section {
     padding: 20px 0 20px 0;
 }
+
 
 /* MEDIA QUERY FOR Larger DESKTOP SCREENS AND SMALLER */
 /*added this size due to the issues I was seeing on my browser at that size*/
