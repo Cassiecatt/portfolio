@@ -233,6 +233,12 @@ header nav ul li a:hover {
     background-position: left;
 }
 
+.box5 {
+    background-image: url(./images/homepage.png);
+    background-size: cover;
+    background-position: left;
+}
+
 
 /* contact section starts */
 
